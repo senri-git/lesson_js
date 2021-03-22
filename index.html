@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>でんたくくん(^📱^)</title>
+</head>
+
+<body>
+  <form name="myForm">
+    <table>
+      <tr>
+        <td colspan="3"><input type="text" size="14" name="myLine" value="0"></td>
+        <td><input type="button" value=" C " onclick="myC()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value=" 7 " onclick="myValue(7)"></td>
+        <td><input type="button" value=" 8 " onclick="myValue(8)"></td>
+        <td><input type="button" value=" 9 " onclick="myValue(9)"></td>
+        <td><input type="button" value=" / " onclick="myCalculate('/')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value=" 4 " onclick="myValue(4)"></td>
+        <td><input type="button" value=" 5 " onclick="myValue(5)"></td>
+        <td><input type="button" value=" 6 " onclick="myValue(6)"></td>
+        <td><input type="button" value=" * " onclick="myCalculate('*')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value=" 1 " onclick="myValue(1)"></td>
+        <td><input type="button" value=" 2 " onclick="myValue(2)"></td>
+        <td><input type="button" value=" 3 " onclick="myValue(3)"></td>
+        <td><input type="button" value=" - " onclick="myCalculate('-')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value=" 0 " onclick="myValue(0)"></td>
+        <td><input type="button" value=" . " onclick="myValue('.')"></td>
+        <td><input type="button" value=" + " onclick="myCalculate('+')"></td>
+        <td><input type="button" value=" = " onclick="myCalculate('=')"></td>
+      </tr>
+    </table>
+  </form>
+  <script src="main.js"></script>
+</body>
+
+</html>
